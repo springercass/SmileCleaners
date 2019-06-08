@@ -167,7 +167,6 @@ hr {
   text-transform: uppercase;
   color: #fff;
   background-color: #3e4c5e;
-  background-image: ;
   padding: 14px 24px;
   letter-spacing: 1px;
   margin: 0;
@@ -263,6 +262,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  height: 100vh;
   padding: 100px 0;
 }
 #about h3 {
@@ -283,23 +283,17 @@ header .intro-text {
   bottom: 0;
   left: 0;
 }
-#about .about-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  list-style: none;
-  padding: 0;
+.how {
+  text-align: center;
+  margin: 0 0 20 0;
 }
-#about .about-text li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
+.about-content {
+  display: flex;
+  justify-content: center;
 }
 #about img {
-  width: 520px;
-  margin-top: 10px;
+  width: 400px;
+  margin: 10px 40px;
   background: #fff;
   border-right: 0;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
@@ -351,6 +345,15 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+#services td {
+  text-align: left;
+}
+
+#services .price {
+  text-align: right;
+  padding: 0 50px 0 0;
+}
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -461,7 +464,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #95b46a;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
